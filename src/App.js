@@ -45,11 +45,24 @@ function CharacterPortraitGrid(props) {
     );
   });
 
-  return (
-    <Row className="justify-content-center character-portrait-grid">
-      {grid}
-    </Row>
-  );
+  if (props.characters.length) {
+    return (
+      <Row className="justify-content-center character-portrait-grid">
+        {grid}
+      </Row>
+    );
+  } else {
+    return (
+      <div>
+        <Row className="justify-content-center">
+          <p><i>“Somebody has to save our skins! Into the garbage chute, flyboy.”</i></p>
+        </Row>
+        <Row className="justify-content-center">
+          <p>No characters yet.</p>
+        </Row>
+      </div>
+    );
+  }
 }
 
 function CharacterCard(props) {
@@ -169,11 +182,13 @@ class App extends React.Component {
       characters: shuffleArray(data.characters),
       sessions: data.sessions,
       coverImg: data.coverImg,
+      subtitleImg: data.subtitleImg,
       title: data.title,
       subtitle: data.subtitle,
       copy: data.copy,
       characterListTitle: data.characterListTitle,
       sessionsListTitle: data.sessionsListTitle,
+      shipTitle: data.shipTitle,
       graveyardTitle: data.graveyardTitle,
       graveyard: data.graveyard,
       author: data.author,
@@ -198,18 +213,9 @@ class App extends React.Component {
   render() {
     return (
       <Container className="App">
-        <img src={this.state.coverImg} className="App-logo img-shadow" alt="logo" />
-        <Row className="justify-content-center top-spacing" noGutters>
-          <h2 className="title">
-            {this.state.title}
-          </h2>
-        </Row>
-        <Row className="justify-content-center" noGutters>
-          <h5 className="subtitle">
-            {this.state.subtitle}
-          </h5>
-        </Row>
-        <Row className="justify-content-center top-spacing" noGutters>
+        <img src={this.state.coverImg} className="App-logo" alt="Star Wars Edge of the Empire: No Such Thing As Luck" />
+        <img src={this.state.subtitleImg} className="App-logo" alt="Two scoundrels blasting stormtroopers in a landspeeder" />
+        <Row className="justify-content-center top-spacing-6" noGutters>
           <p dangerouslySetInnerHTML={{__html: this.state.copy}} />
         </Row>
         <Row className="justify-content-center middle-divider" noGutters></Row>
@@ -233,20 +239,19 @@ class App extends React.Component {
         </ScrollableAnchor>
 
         <Row className="justify-content-center middle-divider" noGutters></Row>
-
+        
         <Row className="justify-content-center">
           <h4>
-            {this.state.graveyardTitle}
+            {this.state.shipTitle}
           </h4>
         </Row>
-        <Row className="justify-content-center top-spacing" noGutters>
-          <p dangerouslySetInnerHTML={{__html: this.state.graveyard[0]}} />
+
+        <Row className="justify-content-center">
+          <p><i>“She may not look like much, but she's got it where it counts, kid.”</i></p>
         </Row>
-        <Row className="justify-content-center top-spacing" noGutters>
-          <p dangerouslySetInnerHTML={{__html: this.state.graveyard[1]}} />
-        </Row>
-        <Row className="justify-content-center top-spacing" noGutters>
-          <p dangerouslySetInnerHTML={{__html: this.state.graveyard[2]}} />
+
+        <Row className="justify-content-center">
+          <p>No ship yet.</p>
         </Row>
 
         <ScrollableAnchor id={'session'}>
