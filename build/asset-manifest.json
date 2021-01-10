@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dnd/static/css/main.fef916b4.chunk.css",
-    "main.js": "/dnd/static/js/main.54c7e6bb.chunk.js",
-    "main.js.map": "/dnd/static/js/main.54c7e6bb.chunk.js.map",
-    "runtime~main.js": "/dnd/static/js/runtime~main.c70589ab.js",
-    "runtime~main.js.map": "/dnd/static/js/runtime~main.c70589ab.js.map",
-    "static/css/2.266e55a5.chunk.css": "/dnd/static/css/2.266e55a5.chunk.css",
-    "static/js/2.83e7a7bb.chunk.js": "/dnd/static/js/2.83e7a7bb.chunk.js",
-    "static/js/2.83e7a7bb.chunk.js.map": "/dnd/static/js/2.83e7a7bb.chunk.js.map",
-    "index.html": "/dnd/index.html",
-    "precache-manifest.da1233decbd92f315fc2e778e988c39f.js": "/dnd/precache-manifest.da1233decbd92f315fc2e778e988c39f.js",
-    "service-worker.js": "/dnd/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "/dnd/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.fef916b4.chunk.css.map": "/dnd/static/css/main.fef916b4.chunk.css.map"
+    "main.css": "/sw/static/css/main.fef916b4.chunk.css",
+    "main.js": "/sw/static/js/main.8f9b72a4.chunk.js",
+    "main.js.map": "/sw/static/js/main.8f9b72a4.chunk.js.map",
+    "runtime~main.js": "/sw/static/js/runtime~main.9798e9e0.js",
+    "runtime~main.js.map": "/sw/static/js/runtime~main.9798e9e0.js.map",
+    "static/css/2.266e55a5.chunk.css": "/sw/static/css/2.266e55a5.chunk.css",
+    "static/js/2.83e7a7bb.chunk.js": "/sw/static/js/2.83e7a7bb.chunk.js",
+    "static/js/2.83e7a7bb.chunk.js.map": "/sw/static/js/2.83e7a7bb.chunk.js.map",
+    "index.html": "/sw/index.html",
+    "precache-manifest.1b267905456afd29af8900a7bbfe4f5e.js": "/sw/precache-manifest.1b267905456afd29af8900a7bbfe4f5e.js",
+    "service-worker.js": "/sw/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/sw/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.fef916b4.chunk.css.map": "/sw/static/css/main.fef916b4.chunk.css.map"
   }
 }
