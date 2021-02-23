@@ -2,7 +2,6 @@
 	"coverImg": "./images/logo-smaller.png",
   "subtitleImg": "./images/below-title.jpg",
 	"title": "NO SUCH THING AS LUCK",
-	"subtitle": "A Mash-Up of Lost Mines of Phandelver and Dragon of Icespire Peak",
 	"copy": "The galaxy is aflame with civil war, and there are credits to be made! Between the oppressive Empire and the idealistic but probably doomed Rebel Alliance, there is opportunity out there among the stars for scoundrels who are clever enough to find it and wise enough to choose exactly the right laws to break. Fortune and glory await!<br><br>Of course, if you hope to be able to sleep at night, your job as a career criminal becomes that much harder. You can't make a hyperspace jump without meeting a person in need or a cause worth getting mixed up in. But you've got debts to pay, and the ship always needs fueling, and maybe a vicious Hutt gangster has decided that you're an employee for life, whether you like it or not. So many choices, what's an honest thief to do?",
 	"characterListTitle": "CREW MEMBERS",
   "graveyardTitle": "FORMER MEMBERS",
@@ -10,16 +9,35 @@
   "shipTitle": "THE SHIP",
 	"author": "Julie Winchester",
 	"authorEmail": "julia.m.winchester@gmail.com",
-	"characters": [
+	"characters": [{
+          "name": "Arana Deene",
+          "desc": "Human Mystic",
+          "imgpixel": "./images/characters/arana_deene.jpg",
+          "img": "./images/characters/arana_deene.jpg"
+        },
+        {
+          "name": "Azira Ralpek",
+          "desc": "Bothan Smuggler",
+          "imgpixel": "./images/characters/azira_ralpek.png",
+          "img": "./images/characters/azira_ralpek.png"
+        },
+        {
+          "name": "Kardrum",
+          "desc": "Dowutin Hired Gun",
+          "imgpixel": "./images/characters/kardrum.jpg",
+          "img": "./images/characters/kardrum.jpg"
+        },
+        {
+          "name": "R3-D0",
+          "desc": "Droid Technician",
+          "imgpixel": "./images/characters/r3d0.jpg",
+          "img": "./images/characters/r3d0.jpg"
+        }
 	],
-  "graveyard": [
-    "Chappy Quickstep. Level 5 Halfling Bard. Retired to Butterskull.",
-    "Enoch the Swordsman. Level 4 Human Fighter. Lost in Time and Space.",
-    "Friendly. Level 2 Firbolg Druid. Not as Friendly as Advertised."
-  ],
+  "graveyard": [],
 	"sessions": [
 		{
-      "name": "Episode I: ESCAPE FROM MOS SHUUTA",
+      "name": "I. ESCAPE FROM MOS SHUUTA",
       "number": 1
     }
 	]
